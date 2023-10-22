@@ -91,7 +91,7 @@ public class Main extends Application implements EventHandler<ActionEvent>{
 			Scene scene = new Scene(root,1000,1000);
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("Bar Chart App");
+			primaryStage.setTitle("Stats Keeper");
 			primaryStage.setMaximized(true);
 
 			primaryStage.show();
