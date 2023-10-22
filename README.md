@@ -1,2 +1,1 @@
 "# BarChartApp"
-Successful Git implementation.
