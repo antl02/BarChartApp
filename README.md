@@ -1,1 +1,2 @@
-"# BarChartApp" 
+"# BarChartApp"
+Successful Git implementation.
