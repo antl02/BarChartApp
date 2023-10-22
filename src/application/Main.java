@@ -68,7 +68,7 @@ public class Main extends Application implements EventHandler<ActionEvent>{
 			mainTab.setClosable(false);
 			tabPane.getTabs().add(mainTab);
 			
-			createDataSet("Fighters");
+			//createDataSet("Fighters"); default data set when testing
 
 			mainTab.setContent(listView);
 			updateListView();
@@ -91,7 +91,7 @@ public class Main extends Application implements EventHandler<ActionEvent>{
 			Scene scene = new Scene(root,1000,1000);
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setScene(scene);
-			primaryStage.setTitle("Stats Keeper");
+			primaryStage.setTitle("Bar Chart App");
 			primaryStage.setMaximized(true);
 
 			primaryStage.show();
